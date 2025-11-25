@@ -16,7 +16,7 @@ const CtaSection = () => {
     <Box
       component="section"
       sx={{
-        backgroundImage: "url('/assets/images/fondo 2.png')",
+        backgroundImage: "url('/assets/images/fondo2.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         width: "100%",
