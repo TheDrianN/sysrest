@@ -36,7 +36,7 @@ const CustomSolutionsSection = () => {
         >
           <Grid container spacing={3} alignItems="center">
             {/* Columna izquierda */}
-            <Grid item xs={12} md={6}>
+            <Grid item size={{ xs: 12, md: 6 }}>
               <Typography
                 variant="h4"
                 sx={{
@@ -51,6 +51,7 @@ const CustomSolutionsSection = () => {
               <Typography
                 variant="body1"
                 sx={{
+                  color: "foreground",
                   fontSize: "1rem",
                   opacity: 0.7,
                 }}
@@ -62,8 +63,7 @@ const CustomSolutionsSection = () => {
             {/* Columna derecha */}
             <Grid
               item
-              xs={12}
-              md={6}
+              size={{ xs: 12, md: 6 }}
               sx={{ display: "flex", justifyContent: "flex-end" }}
             >
               <ButtonContained

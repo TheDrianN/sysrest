@@ -29,7 +29,7 @@ const CtaSection = () => {
       <Container maxWidth="lg">
         <Grid container alignItems="center" ref={ref} spacing={4}>
           {/* Columna izquierda */}
-          <Grid item xs={12} md={6}>
+          <Grid item size={{ xs: 12, md: 6 }}>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -73,7 +73,7 @@ const CtaSection = () => {
           </Grid>
 
           {/* Columna derecha */}
-          <Grid item xs={12} md={6} sx={{ display: { xs: "none", md: "block" } }}>
+          <Grid item size={{ xs: 12, md: 6 }} sx={{ display: { xs: "none", md: "block" } }}>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}

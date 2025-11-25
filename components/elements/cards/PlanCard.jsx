@@ -57,7 +57,7 @@ export default function PlanCard({ plan, isPopular = false }) {
           <Box sx={{ textAlign: "center", mb: 2 }}>
             <Typography
               variant="h3"
-              sx={{ fontWeight: "bold", color: "#1A1A1A" }}
+              sx={{ fontWeight: "bold", color: "foreground" }}
             >
               S/ {plan.precio.toFixed(2)}
             </Typography>

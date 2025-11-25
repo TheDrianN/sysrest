@@ -27,7 +27,7 @@ export default function PricingSection() {
               variant="h4"
               sx={{
                 fontWeight: "bold",
-                color: "#000000",
+                color: "foreground",
                 mb: 2,
                 fontSize: { xs: "1.8rem", md: "2rem" },
               }}
@@ -37,7 +37,8 @@ export default function PricingSection() {
             <Typography
               variant="body1"
               sx={{
-                color: "text.secondary",
+                color: "foreground",
+                opacity: 0.7,
                 maxWidth: 600,
                 mx: "auto",
                 fontSize: { xs: "0.95rem", md: "1rem" },

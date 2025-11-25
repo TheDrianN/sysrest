@@ -9,7 +9,7 @@ export const muiTheme = createTheme({
       main: "#F76F30",
     },
     text: {
-      primary: "#000",
+      primary: "#121928",
       secondary: "#000",
     },
     background: {

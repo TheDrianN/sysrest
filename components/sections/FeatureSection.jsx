@@ -47,7 +47,7 @@ export default function FeaturesCarousel() {
               variant="h4"
               fontWeight="bold"
               mb={1}
-              sx={{ color: "text.primary", fontSize: { xs: "1.8rem", md: "2rem" } }}
+              sx={{ color: "foreground", fontSize: { xs: "1.8rem", md: "2rem" } }}
             >
               ¿Por qué elegir SYSREST?
             </Typography>
@@ -55,7 +55,7 @@ export default function FeaturesCarousel() {
             <Typography
               variant="body1"
               mb={4}
-              sx={{ color: "text.secondary", maxWidth: 600, mx: "auto", fontSize: { xs: "0.95rem", md: "1rem" } }}
+              sx={{ color: "foreground", opacity: 0.7, maxWidth: 600, mx: "auto", fontSize: { xs: "0.95rem", md: "1rem" } }}
             >
               SYSREST hace tu trabajo más fácil, tu equipo más productivo y tu negocio más competitivo.
             </Typography>

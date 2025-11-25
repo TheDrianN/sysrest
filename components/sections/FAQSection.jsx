@@ -21,7 +21,7 @@ const FAQSection = () => {
   });
 
   return (
-    <Box component="section" id="faq" sx={{ width: "100%", py: 8, px: 2, color: "#000" }}>
+    <Box component="section" id="faq" sx={{ width: "100%", py: 8, px: 2, color: "foreground" }}>
       <Container maxWidth="lg">
         {/* Contenedor animado del título y descripción */}
         <motion.div

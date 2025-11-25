@@ -39,11 +39,11 @@ export default function FeatureCard({ icon, title, description, color, iconColor
         )}
       </Box>
 
-      <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
+      <Typography variant="h6" sx={{ color: "foreground", fontWeight: "bold", mb: 1 }}>
         {title}
       </Typography>
 
-      <Typography variant="body2" color="text.secondary">
+      <Typography variant="body2" sx={{ color: "foreground", opacity: 0.7 }}>
         {description}
       </Typography>
     </Card>

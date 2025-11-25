@@ -28,7 +28,6 @@ const SunatSection = () => {
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center",
-          color: "#000",
         }}
       >
         <Container maxWidth="lg" sx={{ px: 2 }}>
@@ -37,6 +36,7 @@ const SunatSection = () => {
             variant="h4"
             sx={{
               fontWeight: 700,
+              color: "foreground",
               fontSize: { xs: "1.8rem", md: "2rem" },
               lineHeight: 1.3,
               mb: 2,
@@ -83,6 +83,7 @@ const SunatSection = () => {
           <Typography
             variant="body2"
             sx={{
+              color: "foreground",
               opacity: 0.7,
               fontSize: { xs: "0.85rem", md: "1rem" },
             }}
